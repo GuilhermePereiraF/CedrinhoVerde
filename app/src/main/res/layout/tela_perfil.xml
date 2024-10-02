@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity7">
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="421dp"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/retcinzaclaro"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <Button
+        android:id="@+id/button58"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para você"
+        app:icon="@drawable/thumbsup_1"
+        tools:layout_editor_absoluteX="214dp"
+        tools:layout_editor_absoluteY="671dp" />
+
+    <Button
+        android:id="@+id/button59"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        app:icon="@drawable/iconepessoafisicaverde"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="447dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/rectangle6"
+        tools:layout_editor_absoluteX="-7dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="417dp"
+        android:layout_height="71dp"
+        app:srcCompat="@drawable/retangulobranco"
+        tools:layout_editor_absoluteX="-6dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nenhum usuário logado"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faça o login"
+        android:textColor="#66666666"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="124dp" />
+
+    <Button
+        android:id="@+id/button39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sobre"
+        app:icon="@drawable/iconesobre"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="194dp" />
+
+    <Button
+        android:id="@+id/button40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Sugestões, relcmações e opiniões"
+        app:icon="@drawable/balaodeexclamacao"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="259dp" />
+
+    <Button
+        android:id="@+id/button41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversar via Whatsapp"
+        app:icon="@drawable/comunicacaodoiscelulares"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="329dp" />
+
+    <Button
+        android:id="@+id/button42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fazer login"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <Button
+        android:id="@+id/button60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loja"
+        app:icon="@drawable/iconelojaverde"
+        tools:layout_editor_absoluteY="664dp" />
+
+    <Button
+        android:id="@+id/button61"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar"
+        app:icon="@drawable/lupaicone"
+        tools:layout_editor_absoluteX="104dp"
+        tools:layout_editor_absoluteY="661dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

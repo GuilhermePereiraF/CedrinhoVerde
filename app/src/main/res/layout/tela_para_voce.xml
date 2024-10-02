@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/tomateorgancioimagem_1"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$9,90"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="R$19,90"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="377dp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tomate Orgânico"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <Button
+        android:id="@+id/button48"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <Button
+        android:id="@+id/button50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        tools:layout_editor_absoluteX="83dp"
+        tools:layout_editor_absoluteY="457dp" />
+
+    <Button
+        android:id="@+id/button51"
+        android:layout_width="74dp"
+        android:layout_height="36dp"
+        android:text="+"
+        tools:layout_editor_absoluteX="300dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bananaprataimagem_2"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="252dp" />
+
+    <Button
+        android:id="@+id/button47"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="113dp"
+        android:layout_height="59dp"
+        android:text="Banana Prata Orgânica (800g-1kg)"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="421dp"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/retcinzaclaro"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <ImageView
+        android:id="@+id/imageView26"
+        android:layout_width="433dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/retcinzaclaro"
+        tools:layout_editor_absoluteX="-22dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line4"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="198dp" />
+
+    <Button
+        android:id="@+id/button37"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista"
+        app:icon="@drawable/iconelista"
+        app:iconTint="#66666666"
+        tools:layout_editor_absoluteX="305dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/button38"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugeridos"
+        app:icon="@drawable/estrelaverdeicone"
+        app:iconTint="#75FB4C"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/button28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        app:icon="@drawable/coracaocinza"
+        app:iconTint="#66666666"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:icon="@drawable/iconecarrinhodecompras_1"
+        app:iconTint="#FFFFFF"
+        tools:layout_editor_absoluteX="320dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Retangulolongo1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <Button
+        android:id="@+id/button43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar"
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <Button
+        android:id="@+id/button44"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loja"
+        app:icon="@drawable/iconelojaverde"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <Button
+        android:id="@+id/button45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        app:icon="@drawable/iconepessoafisicaverde"
+        tools:layout_editor_absoluteX="321dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para você"
+        app:icon="@drawable/thumbsup_1"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="666dp" />
+
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/morangosimagem"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/CenourasImagem"
+        tools:layout_editor_absoluteX="240dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

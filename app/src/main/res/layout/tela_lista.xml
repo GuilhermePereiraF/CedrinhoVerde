@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line4"
+        tools:layout_editor_absoluteX="292dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="421dp"
+        android:layout_height="202dp"
+        app:srcCompat="@drawable/retcinzaclaro"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="630dp" />
+
+    <Button
+        android:id="@+id/button29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pesquisar"
+        app:icon="@drawable/lupaicone"
+        tools:layout_editor_absoluteX="95dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <Button
+        android:id="@+id/button36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Para você"
+        app:icon="@drawable/thumbsup_1"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <Button
+        android:id="@+id/button35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Loja"
+        app:icon="@drawable/iconelojaverde"
+        tools:layout_editor_absoluteX="-11dp"
+        tools:layout_editor_absoluteY="675dp" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Perfil"
+        app:icon="@drawable/iconepessoafisicaverde"
+        tools:layout_editor_absoluteX="324dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Retangulolongo1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-2dp" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="433dp"
+        android:layout_height="175dp"
+        app:srcCompat="@drawable/retcinzaclaro"
+        tools:layout_editor_absoluteX="-22dp"
+        tools:layout_editor_absoluteY="35dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sugeridos"
+        app:icon="@drawable/estrelaverdeicone"
+        app:iconTint="#66666666"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="108dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Favoritos"
+        app:icon="@drawable/coracaocinza"
+        app:iconTint="#66666666"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista"
+        app:icon="@drawable/iconelista"
+        app:iconTint="#75FB4C"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="110dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nenhuma lista"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="127dp"
+        tools:layout_editor_absoluteY="349dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="252dp"
+        android:layout_height="46dp"
+        android:text="Crie listas de compras e navegue nos produtos de maneira mais fácil"
+        android:textAlignment="center"
+        android:textColor="#66666666"
+        tools:layout_editor_absoluteX="79dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Criar lista"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="461dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:icon="@drawable/iconecarrinhodecompras_1"
+        tools:layout_editor_absoluteX="309dp"
+        tools:layout_editor_absoluteY="46dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

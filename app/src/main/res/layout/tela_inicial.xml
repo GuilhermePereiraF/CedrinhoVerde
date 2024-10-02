@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/tratorimagemfundo"
+        android:layout_width="436dp"
+        android:layout_height="786dp"
+        app:srcCompat="@drawable/tratorimagem"
+        tools:layout_editor_absoluteX="-13dp"
+        tools:layout_editor_absoluteY="-48dp" />
+
+    <Button
+        android:id="@+id/botaologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColorHighlight="#A81D1D"
+        android:textColorLink="#FFFFFF"
+        app:icon="@drawable/flechaesquerda"
+        app:iconTint="#FFFFFF"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <Button
+        android:id="@+id/botaoconvidado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Entrar como convidado"
+        tools:layout_editor_absoluteX="108dp"
+        tools:layout_editor_absoluteY="573dp" />
+
+    <ImageView
+        android:id="@+id/retverdeescuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Retangulolongo1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-6dp" />
+
+    <ImageView
+        android:id="@+id/retverdeclaro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/Retangulolongo2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <TextView
+        android:id="@+id/nomedoapp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Cedrinho Verde"
+        android:textColor="#FBFBFB"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="110dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
